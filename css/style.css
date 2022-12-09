@@ -240,6 +240,26 @@ padding: 15px 5px;
   display: flex;
 }
 
+.models{
+  margin: 50px;
+  margin-left: 550px;
+}
+
+.bagged-model{
+  margin: 50px;
+  margin-left: 700px;
+}
+
+.boosted-model{
+  margin: 50px;
+  margin-left: 700px;
+}
+
+.blended-model{
+  margin: 50px;
+  margin-left: 700px;
+}
+
 .contact {
   margin: 50px;
 }

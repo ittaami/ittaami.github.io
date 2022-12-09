@@ -1,26 +1,29 @@
- * {
- 	margin: 0;
- 	padding: 0;
-    box-sizing: border-box;
- }
- body {
-      font-family: "OpenSans-Light", Helvetica, Arial, sans-serif;
-      background: white;
-    }
+* {
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+}
+body {
+	font-family: "OpenSans-Light", Helvetica, Arial, sans-serif;
+	background: white;
+}
 
-    header {
-    	background: #2d2f32;
-    	position: sticky;
-    	top: 0;
-    	z-index: 1;
-      opacity: 93%;
-      margin: 0;
-    }
+main {
+	width: 100%;
+}
+header {
+	background: #2d2f32;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	opacity: 93%;
+	margin: 0;
+	}
 
 nav {
 display: flex;
 justify-content: space-between;
-max-width: 1150px;
+max-width: 100%;
 margin: auto;
 padding: 5 30px;
 }
@@ -56,20 +59,19 @@ nav a:hover {
 border-bottom: 1px solid #ffffff;
 }
 
-.top-image{
+.top-image {
 width: 100%;
 }
 
-.top-image-sub{
-
+.top-image-sub {
   object-fit: cover;
 }
 
 .headline.post-title{
 	text-transform: uppercase;
-color: lightblue;
-font-weight: 55;
-font-size: 100px;
+	color: lightblue;
+	font-weight: 55;
+	font-size: 100px;
 }
 
 
@@ -88,7 +90,6 @@ color: #313131;
 .delimeter {
 width: 100px;
 margin: 10px auto 15px;
-margin-bottom: 25px;
 height: 1px;
 background: rgba(206, 65, 110, 0.74);
 }
@@ -96,6 +97,7 @@ background: rgba(206, 65, 110, 0.74);
 .main-title-description{
 color: #616161;
 text-align: center;
+padding-bottom: 15px;
 }
 
 .services p {
@@ -183,7 +185,7 @@ padding: 15px 5px;
 	background-size: cover;
 	width: 25%;
 	height: 325px;
-  margin-left: 660px;
+  margin: auto;
 }
 
 .description-container{
@@ -218,58 +220,62 @@ padding: 15px 5px;
   width: 100%; }
 }
 
-.model-graph{
-  margin-left: 50px;
-  display: flex;
-}
+
 
 .pie-chart{
-  margin-left: 600px;
   display: flex;
+	justify-content: space-around;
 }
 
 .bar-plot1{
-  margin-left: 600px;
+	justify-content: space-around;
   display: flex;
 }
 
 .bar-plot2{
-  margin-left: 600px;
+	justify-content: space-around;
   display: flex;
 }
 
 .models{
-  margin: 50px;
-  margin-left: 550px;
+	padding-bottom: 15px;
   text-align: center;
+	display: flex;
+	justify-content: space-around;
 }
 
 .bagged-model{
-  margin: 50px;
-  margin-left: 700px;
+	padding-bottom: 15px;
   text-align: center;
+	display: flex;
+	justify-content: space-around;
 }
 
 .boosted-model{
-  margin: 50px;
-  margin-left: 700px;
+	padding-bottom: 15px;
   text-align: center;
+	display: flex;
+	justify-content: space-around;
 }
 
 .blended-model{
-  margin: 50px;
-  margin-left: 700px;
+	padding-bottom: 15px;
   text-align: center;
+	display: flex;
+	justify-content: space-around;
 }
 
 .best-model{
-  margin: 50px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
   text-align: center;
+	display: flex;
+	justify-content: space-around;
 }
 
 .roc-curve{
   text-align: center;
-  margin: 50px;
 }
 
 .roc-curve:hover{
@@ -277,20 +283,11 @@ padding: 15px 5px;
 	height: 100%;
 }
 
-.pr{
-  text-align: center;
-  margin: 50px;
-}
-
 .pr:hover{
 	opacity: 0.85;
 	height: 100%;
 }
 
-.conf{
-  text-align: center;
-  margin: 50px;
-}
 
 .conf:hover{
 	opacity: 0.85;
@@ -298,31 +295,28 @@ padding: 15px 5px;
 }
 
 .ada{
-  text-align: center;
-  margin: 50px;
+  margin-bottom: 25px;
 }
-
 .ada:hover{
 	opacity: 0.85;
 	height: 100%;
 }
 
 .predict_model{
-  margin: 50px;
-  margin-left: 580px;
+	display: flex;
+	justify-content: space-around;
   text-align: center;
+	padding-bottom: 25px;
 }
 
 .unseen{
-  text-align: center;
-  margin: 40px;
+    margin-bottom: 25px;
 }
 
 .unseen:hover{
 	opacity: 0.85;
 	height: 100%;
 }
-
 
 .contact {
   margin: 50px;

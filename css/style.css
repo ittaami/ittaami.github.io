@@ -87,6 +87,37 @@ font-weight: 300;
 color: #313131;
 }
 
+.contact-form{
+width: 60%;
+margin: 50px auto;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.contact-form .submit {
+margin-top: 25px;
+background: #2d2f31;
+color: #ffffff;
+font-size: 16px;
+font-weight: 300;
+font-family: inherit;
+border-radius: 6px;
+  cursor: pointer;
+transition: all 250ms ease-in-out;
+}
+
+.contact-form input, .contact-form textarea {
+border: 1px solid #afafaf;
+padding: 15px;
+border-radius: 6px;
+}
+
+#status{
+	text-align: center;
+	font-size: 20px;
+}
+
 .delimeter {
 width: 100px;
 margin: 10px auto 15px;
@@ -319,7 +350,12 @@ padding: 15px 5px;
 }
 
 .contact {
-  margin: 50px;
+margin: 50px;
+text-align: center;
+}
+
+#result{
+  font-size: 25px;
 }
 
 footer{
